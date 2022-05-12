@@ -35,7 +35,7 @@ p {
   padding-bottom: 80px;
   margin-bottom: 0;
   background-color: hsl(257, 40%, 49%);
-  background-image: url("images/bg-desktop.svg");
+  background-image: url("../images/bg-desktop.svg");
   overflow: hidden;
 }
 
