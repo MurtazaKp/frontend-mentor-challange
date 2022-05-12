@@ -32,7 +32,7 @@ p {
   left: 0;
   right: 0;
   width: 100%;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
   margin-bottom: 0;
   background-color: hsl(257, 40%, 49%);
   background-image: url("/images/bg-desktop.svg");
@@ -64,13 +64,15 @@ p {
   position: absolute;
   width: 200px;
   height: 40px;
-  padding: 30px;
+  padding: 20px;
   z-index: 1;
 }
 
 .attribution {
+  width: 100%;
   position: absolute;
-  margin: auto;
+  text-align: center;
+
 }
 
 .btn {
@@ -153,8 +155,10 @@ p {
   }
 
   .attribution {
+    width: 70%;
     bottom: 30px;
-    right: 70px;
+    right: 60px;
+
     transform: translate(-8px,420px);
   }
 
